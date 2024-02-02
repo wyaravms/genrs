@@ -50,5 +50,5 @@ rburrxii(10, 2, 3)
 Function `rparetoi` generates random data following a Pareto I distribution with parameters scale and shape.
 
 ```{r paretoi}
-rparetoi(10, 5, 2)
+rparetoi(10, 3, 6)
 ```
