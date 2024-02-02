@@ -4,6 +4,8 @@
 # Package `genrs`
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Functions that allow generating random samples from the Pareto I
@@ -36,8 +38,8 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 0.4485541 0.4037190 0.9096318 0.4120665 0.7468751 0.6052889 1.1964377
-#>  [8] 0.8206933 0.8065565 1.2078522
+#>  [1] 1.2134398 0.7181633 1.9482662 0.6087981 0.3039810 0.2114933 1.0008332
+#>  [8] 0.6459341 0.5295061 0.9513967
 ```
 
 Function `rparetoi` that generates random data following a Pareto I
@@ -45,6 +47,6 @@ distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 5, 2)
-#>  [1]  7.331088 20.244022  7.482217 14.103982  6.682408 10.713554 10.219077
-#>  [8] 21.255434  7.530887  7.021031
+#>  [1]  5.333298  7.025242  5.199760 12.932359  9.738521  6.512898  7.532920
+#>  [8]  8.586840  6.553908  6.443711
 ```
