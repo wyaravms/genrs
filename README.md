@@ -32,23 +32,22 @@ These are some basic examples using the functions available in the
 
 ``` r
 library(genrs)
-## basic example code
 ```
 
-Function `rburrxii` that generates random data following a Burr XII
+Function `rburrxii` generates random data following a Burr XII
 distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 0.5183466 0.3242665 0.4058308 0.3083999 0.8079122 1.1769135 0.8721388
-#>  [8] 0.9370985 0.3789073 0.3982776
+#>  [1] 0.3339085 1.2393066 0.8080782 1.7748212 0.7241048 1.4611875 0.9688004
+#>  [8] 1.8264882 0.6451361 0.9414364
 ```
 
-Function `rparetoi` that generates random data following a Pareto I
+Function `rparetoi` generates random data following a Pareto I
 distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 5, 2)
-#>  [1]   7.044177   6.402416   6.724344   6.429523   6.777332  15.049469
-#>  [7]   8.508267 104.860714   6.328839   5.017083
+#>  [1]  6.053658  5.388834  6.685354  6.045224  8.249474  7.255742  5.008813
+#>  [8] 77.841033  6.951794 20.318907
 ```

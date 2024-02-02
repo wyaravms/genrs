@@ -38,16 +38,15 @@ These are some basic examples using the functions available in the `genrs` packa
 
 ```{r example}
 library(genrs)
-## basic example code
 ```
 
-Function `rburrxii` that generates random data following a Burr XII distribution with parameters shape1 and shape2.
+Function `rburrxii` generates random data following a Burr XII distribution with parameters shape1 and shape2.
 
 ```{r burrxii}
 rburrxii(10, 2, 3)
 ```
 
-Function `rparetoi` that generates random data following a Pareto I distribution with parameters scale and shape.
+Function `rparetoi` generates random data following a Pareto I distribution with parameters scale and shape.
 
 ```{r paretoi}
 rparetoi(10, 5, 2)
