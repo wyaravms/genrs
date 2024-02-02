@@ -9,8 +9,7 @@
 <!-- badges: end -->
 
 Important Note: This package is just an example that I used to study how
-to create a package and add some elements to the documentation; the
-functions are not necessarily original ideas.
+to create a package and add some elements to the documentation.
 
 Functions that enable the generation of random samples from various
 distribution functions. The method used to generate these values was
@@ -41,8 +40,8 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 1.4247125 0.5452049 0.7449841 1.0468310 0.2806603 0.9249439 1.6770632
-#>  [8] 0.7804353 0.7074004 0.6959351
+#>  [1] 0.5183466 0.3242665 0.4058308 0.3083999 0.8079122 1.1769135 0.8721388
+#>  [8] 0.9370985 0.3789073 0.3982776
 ```
 
 Function `rparetoi` that generates random data following a Pareto I
@@ -50,6 +49,6 @@ distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 5, 2)
-#>  [1] 14.919633  6.652952  5.081714  5.169326 12.768473  6.685768 16.680736
-#>  [8]  5.515652  5.001390  6.792467
+#>  [1]   7.044177   6.402416   6.724344   6.429523   6.777332  15.049469
+#>  [7]   8.508267 104.860714   6.328839   5.017083
 ```
