@@ -13,11 +13,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Package genrs <a href="https://wyaravms.github.io/genrs/"><img src="man/figures/logo.png" align="right" height="139" alt="genrs website" /></a>
+# Package `genrs` <a href="https://wyaravms.github.io/genrs/"><img src="man/figures/logo.png" align="right" height="139" alt="genrs website" /></a>
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
+
+Important Note: This package is just an example that I used to study how to create a package and add some elements to the documentation; the functions are not necessarily original ideas.
 
 Functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.
 
