@@ -13,12 +13,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# genrs
+# Package `genrs`
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of genrs is to ...
+Functions that allow generating random samples from the Pareto I distribution and Burr XII distribution. The method used to generate these values was implemented using the Inverse Transform Sampling method.
 
 ## Installation
 
@@ -31,25 +31,21 @@ devtools::install_github("wyaravms/genrs")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+These are some basic examples using the functions available in the `genrs` package:
 
 ```{r example}
 library(genrs)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+Function `rburrxii` that generates random data following a Burr XII distribution with parameters shape1 and shape2.
 
-```{r cars}
-summary(cars)
+```{r burrxii}
+rburrxii(10, 2, 3)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+Function `rparetoi` that generates random data following a Pareto I distribution with parameters scale and shape.
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r paretoi}
+rparetoi(10, 5, 2)
 ```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

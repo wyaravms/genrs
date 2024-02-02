@@ -1,12 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# genrs
+# Package `genrs`
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of genrs is to …
+Functions that allow generating random samples from the Pareto I
+distribution and Burr XII distribution. The method used to generate
+these values was implemented using the Inverse Transform Sampling
+method.
 
 ## Installation
 
@@ -20,33 +23,28 @@ devtools::install_github("wyaravms/genrs")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+These are some basic examples using the functions available in the
+`genrs` package:
 
 ``` r
 library(genrs)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+Function `rburrxii` that generates random data following a Burr XII
+distribution with parameters shape1 and shape2.
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+rburrxii(10, 2, 3)
+#>  [1] 0.4485541 0.4037190 0.9096318 0.4120665 0.7468751 0.6052889 1.1964377
+#>  [8] 0.8206933 0.8065565 1.2078522
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
+Function `rparetoi` that generates random data following a Pareto I
+distribution with parameters scale and shape.
 
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+``` r
+rparetoi(10, 5, 2)
+#>  [1]  7.331088 20.244022  7.482217 14.103982  6.682408 10.713554 10.219077
+#>  [8] 21.255434  7.530887  7.021031
+```
