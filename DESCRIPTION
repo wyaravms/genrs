@@ -1,7 +1,7 @@
 Package: genrs
 Type: Package
 Title: Generates Random Samples from Probability Distributions
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person(given = "Wyara Vanesa",
            family = "Moura e Silva",
            role = c("aut", "cre"),
