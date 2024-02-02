@@ -15,3 +15,5 @@ Depends: R (>= 4.1.0)
 Encoding: UTF-8
 Imports: stats
 RoxygenNote: 7.3.0
+URL: https://github.com/wyaravms/genrs
+BugReports: https://github.com/wyaravms/genrs/issues
