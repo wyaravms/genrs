@@ -10,7 +10,7 @@ Authors@R: c(person(given = "Wyara Vanesa",
 Author: Wyara Vanesa Moura e Silva [aut, cre]
 Maintainer: Wyara Vanesa Moura e Silva <wyaravms@gmail.com>
 Description: Functions that allow generating random samples from the Pareto I distribution and Burr XII distribution. The method used to generate these values was implemented using the Inverse Transform Sampling method.
-License: GPL (>= 2.0)
+License: GPL (>= 2)
 Depends: R (>= 4.1.0)
 Encoding: UTF-8
 Imports: stats
