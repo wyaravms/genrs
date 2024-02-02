@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-Functions that allow generating random samples from the Pareto I distribution and Burr XII distribution. The method used to generate these values was implemented using the Inverse Transform Sampling method.
+Functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.
 
 ## Installation
 
