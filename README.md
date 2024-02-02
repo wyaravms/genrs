@@ -8,8 +8,7 @@
 [![R-CMD-check](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wyaravms/genrs/actions/workflows/R-CMD-check.yaml)
 [![License: GPL (\>=
 2)](https://img.shields.io/badge/license-GPL%20(%3E=%202)-blue.svg)](https://github.com/wyaravms/genrs/blob/main/LICENSE.md)
-[![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 Important Note: This package is just an example that I used to study how
@@ -43,8 +42,8 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 1.1261355 1.1519892 0.7520260 0.3543470 0.6370661 0.8821343 1.0990608
-#>  [8] 0.3737447 1.0613797 0.4932080
+#>  [1] 0.8858458 0.5779837 0.8951875 0.5285949 0.7693344 0.5707214 0.7007781
+#>  [8] 0.8291444 1.0177433 0.2057278
 ```
 
 Function `rparetoi` generates random data following a Pareto I
@@ -52,6 +51,6 @@ distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 5, 2)
-#>  [1]  5.352625  6.088411 23.144629  6.402958  5.055634 28.127434  7.285401
-#>  [8]  5.598565  5.438661  5.119014
+#>  [1] 11.356654  7.976092  5.204894  6.299457 32.862342  6.598646  5.183260
+#>  [8]  8.398332 17.107933  5.213804
 ```
