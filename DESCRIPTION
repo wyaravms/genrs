@@ -1,0 +1,17 @@
+Package: genrs
+Type: Package
+Title: Generates Random Samples from Probability Distributions
+Version: 0.1.0
+Authors@R: c(person(given = "Wyara Vanesa",
+           family = "Moura e Silva",
+           role = c("aut", "cre"),
+           email = "wyaravms@gmail.com")
+           )
+Author: Wyara Vanesa Moura e Silva [aut, cre]
+Maintainer: Wyara Vanesa Moura e Silva <wyaravms@gmail.com>
+Description: Functions that allow generating random samples from the Pareto I distribution and Burr XII distribution. The method used to generate these values was implemented using the Inverse Transform Sampling method.
+License: GPL (>= 2.0)
+Depends: R (>= 4.1.0)
+Encoding: UTF-8
+Imports: stats
+RoxygenNote: 7.3.0
