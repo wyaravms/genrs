@@ -43,15 +43,27 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 0.7495970 0.6848766 0.4279842 0.5305161 0.5991625 0.6457063 0.3939332
-#>  [8] 0.9859019 0.7161570 1.1305538
+#>  [1] 0.3916599 0.3302186 0.9729286 1.0382671 0.8249860 0.6858643 0.4202429
+#>  [8] 1.4767603 0.7075502 0.5496158
 ```
+
+``` r
+hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the sample")
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="70%" />
 
 Function `rparetoi` generates random data following a Pareto I
 distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 3, 6)
-#>  [1] 3.430574 3.224671 3.175462 3.053392 3.370656 3.895310 4.074315 3.548354
-#>  [9] 3.042120 3.209548
+#>  [1] 3.350480 3.190786 3.347261 4.109502 3.569522 5.683499 3.608258 3.169733
+#>  [9] 3.587065 3.523597
 ```
+
+``` r
+hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the sample")
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="75%" />
