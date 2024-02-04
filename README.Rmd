@@ -51,10 +51,9 @@ rburrxii(10, 2, 3)
 ```
 
 ```{r, echo=TRUE, out.width="70%"}
-hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the sample")
+hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the Sample")
 
 ```
-
 
 
 Function `rparetoi` generates random data following a Pareto I distribution with parameters scale and shape.
@@ -64,6 +63,17 @@ rparetoi(10, 3, 6)
 
 ```
 
-```{r, echo=TRUE, out.width="75%"}
-hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the sample")
+```{r, echo=TRUE, out.width="70%"}
+hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the Sample")
+```
+
+Function `rloglogis` generates random data following a Log-logistic distribution with parameters scale and shape.
+
+```{r loglogis}
+rloglogis(10, 3, 6)
+
+```
+
+```{r, echo=TRUE, out.width="70%"}
+hist(rloglogis(1000, 1, 8), freq = FALSE, main = "Histogram of the Sample")
 ```

@@ -43,12 +43,12 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 0.3916599 0.3302186 0.9729286 1.0382671 0.8249860 0.6858643 0.4202429
-#>  [8] 1.4767603 0.7075502 0.5496158
+#>  [1] 1.0974049 0.5779157 0.8709173 0.8513088 0.9375570 0.3340798 0.4065357
+#>  [8] 0.7174570 0.5065897 2.2397891
 ```
 
 ``` r
-hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the sample")
+hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the Sample")
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="70%" />
@@ -58,12 +58,27 @@ distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 3, 6)
-#>  [1] 3.350480 3.190786 3.347261 4.109502 3.569522 5.683499 3.608258 3.169733
-#>  [9] 3.587065 3.523597
+#>  [1] 3.331366 3.416477 4.395513 3.746907 3.246530 3.404517 3.311258 4.145592
+#>  [9] 3.134992 5.252068
 ```
 
 ``` r
-hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the sample")
+hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the Sample")
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="75%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="70%" />
+
+Function `rloglogis` generates random data following a Log-logistic
+distribution with parameters scale and shape.
+
+``` r
+rloglogis(10, 3, 6)
+#>  [1] 4.258138 2.767869 3.293448 2.365414 2.611447 2.980018 3.353399 2.632729
+#>  [9] 2.479938 2.788551
+```
+
+``` r
+hist(rloglogis(1000, 1, 8), freq = FALSE, main = "Histogram of the Sample")
+```
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="70%" />
