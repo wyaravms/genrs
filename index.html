@@ -74,7 +74,7 @@
 
 <!-- badges: end -->
 <p>Important Note: This package is just an example that I used to study how to create a package and add some elements to the documentation.</p>
-<p>Functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.</p>
+<p>In this package, you will find functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -92,24 +92,24 @@
 <p>Function <code>rburrxii</code> generates random data following a Burr XII distribution with parameters shape1 and shape2.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/rburrxii.html">rburrxii</a></span><span class="op">(</span><span class="fl">10</span>, <span class="fl">2</span>, <span class="fl">3</span><span class="op">)</span></span>
-<span><span class="co">#&gt;  [1] 1.0974049 0.5779157 0.8709173 0.8513088 0.9375570 0.3340798 0.4065357</span></span>
-<span><span class="co">#&gt;  [8] 0.7174570 0.5065897 2.2397891</span></span></code></pre></div>
+<span><span class="co">#&gt;  [1] 0.2504770 0.8087669 0.5621138 0.4744511 0.9516204 0.5165640 0.2663089</span></span>
+<span><span class="co">#&gt;  [8] 0.3250835 0.9528229 0.6645953</span></span></code></pre></div>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="fu"><a href="reference/rburrxii.html">rburrxii</a></span><span class="op">(</span><span class="fl">1000</span>, <span class="fl">2</span>, <span class="fl">4</span><span class="op">)</span>, freq <span class="op">=</span> <span class="cn">FALSE</span>, main <span class="op">=</span> <span class="st">"Histogram of the Sample"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-2-1.png" width="70%"></p>
 <p>Function <code>rparetoi</code> generates random data following a Pareto I distribution with parameters scale and shape.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/rparetoi.html">rparetoi</a></span><span class="op">(</span><span class="fl">10</span>, <span class="fl">3</span>, <span class="fl">6</span><span class="op">)</span></span>
-<span><span class="co">#&gt;  [1] 3.331366 3.416477 4.395513 3.746907 3.246530 3.404517 3.311258 4.145592</span></span>
-<span><span class="co">#&gt;  [9] 3.134992 5.252068</span></span></code></pre></div>
+<span><span class="co">#&gt;  [1] 3.711729 3.381806 3.575570 3.423183 3.200048 3.860860 3.946624 3.197435</span></span>
+<span><span class="co">#&gt;  [9] 3.388980 3.096117</span></span></code></pre></div>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="fu"><a href="reference/rparetoi.html">rparetoi</a></span><span class="op">(</span><span class="fl">1000</span>, <span class="fl">10</span>, <span class="fl">6</span><span class="op">)</span>, freq <span class="op">=</span> <span class="cn">FALSE</span>, main <span class="op">=</span> <span class="st">"Histogram of the Sample"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-3-1.png" width="70%"></p>
 <p>Function <code>rloglogis</code> generates random data following a Log-logistic distribution with parameters scale and shape.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/rloglogis.html">rloglogis</a></span><span class="op">(</span><span class="fl">10</span>, <span class="fl">3</span>, <span class="fl">6</span><span class="op">)</span></span>
-<span><span class="co">#&gt;  [1] 4.258138 2.767869 3.293448 2.365414 2.611447 2.980018 3.353399 2.632729</span></span>
-<span><span class="co">#&gt;  [9] 2.479938 2.788551</span></span></code></pre></div>
+<span><span class="co">#&gt;  [1] 3.415271 3.093266 3.264675 3.153163 2.514298 2.093277 3.344984 1.743827</span></span>
+<span><span class="co">#&gt;  [9] 2.735282 2.949746</span></span></code></pre></div>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="fu"><a href="reference/rloglogis.html">rloglogis</a></span><span class="op">(</span><span class="fl">1000</span>, <span class="fl">1</span>, <span class="fl">8</span><span class="op">)</span>, freq <span class="op">=</span> <span class="cn">FALSE</span>, main <span class="op">=</span> <span class="st">"Histogram of the Sample"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-4-1.png" width="70%"></p>
