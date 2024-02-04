@@ -10,7 +10,7 @@
 #' @details The Log-logistic distribution with parameters \code{scale} = \eqn{\alpha}
 #' and \code{shape} = \eqn{\beta} has the probability density function:
 #' \deqn{f_{X}(x) = \dfrac{(\beta/\alpha)(x/\alpha)^{\beta-1}}{(1 + (x/\alpha)^{\beta})^{2}}}
-#' for \eqn{x\geq 0}, \eqn{\theta>0} and \eqn{\alpha>0}.
+#' for \eqn{x\geq 0}, \eqn{\alpha>0} and \eqn{\beta>0}.
 #'
 #' @returns A vector containing data distributed according to
 #' the Log-logistic distribution with a sample size specified by \code{n}, and with scale
