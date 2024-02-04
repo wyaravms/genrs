@@ -44,42 +44,42 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 0.2504770 0.8087669 0.5621138 0.4744511 0.9516204 0.5165640 0.2663089
-#>  [8] 0.3250835 0.9528229 0.6645953
+#>  [1] 0.6622819 1.1151069 0.7463375 1.0880695 0.7364627 0.9581563 0.7460538
+#>  [8] 0.6528588 1.2624069 0.8462232
 ```
 
 ``` r
 hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the Sample")
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="70%" />
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" />
 
 Function `rparetoi` generates random data following a Pareto I
 distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 3, 6)
-#>  [1] 3.711729 3.381806 3.575570 3.423183 3.200048 3.860860 3.946624 3.197435
-#>  [9] 3.388980 3.096117
+#>  [1] 3.258682 3.191228 3.261140 3.466575 3.885335 3.042769 3.402817 3.997748
+#>  [9] 5.074505 3.833168
 ```
 
 ``` r
 hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the Sample")
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="70%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="80%" />
 
 Function `rloglogis` generates random data following a Log-logistic
 distribution with parameters scale and shape.
 
 ``` r
 rloglogis(10, 3, 6)
-#>  [1] 3.415271 3.093266 3.264675 3.153163 2.514298 2.093277 3.344984 1.743827
-#>  [9] 2.735282 2.949746
+#>  [1] 2.943345 4.522133 3.289996 1.985151 3.761592 2.312687 3.602403 3.412819
+#>  [9] 3.064508 3.263536
 ```
 
 ``` r
 hist(rloglogis(1000, 1, 8), freq = FALSE, main = "Histogram of the Sample")
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="70%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="80%" />

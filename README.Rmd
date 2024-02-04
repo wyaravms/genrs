@@ -50,7 +50,7 @@ rburrxii(10, 2, 3)
 
 ```
 
-```{r, echo=TRUE, out.width="70%"}
+```{r, echo=TRUE, out.width="80%"}
 hist(rburrxii(1000, 2, 4), freq = FALSE, main = "Histogram of the Sample")
 
 ```
@@ -63,7 +63,7 @@ rparetoi(10, 3, 6)
 
 ```
 
-```{r, echo=TRUE, out.width="70%"}
+```{r, echo=TRUE, out.width="80%"}
 hist(rparetoi(1000, 10, 6), freq = FALSE, main = "Histogram of the Sample")
 ```
 
@@ -74,6 +74,6 @@ rloglogis(10, 3, 6)
 
 ```
 
-```{r, echo=TRUE, out.width="70%"}
+```{r, echo=TRUE, out.width="80%"}
 hist(rloglogis(1000, 1, 8), freq = FALSE, main = "Histogram of the Sample")
 ```
