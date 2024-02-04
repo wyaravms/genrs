@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 Important Note: This package is just an example that I used to study how to create a package and add some elements to the documentation.
 
-Functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.
+In this package, you will find functions that enable the generation of random samples from various distribution functions. The method used to generate these values was implemented using the Inverse Transform Sampling method.
 
 ## Installation
 

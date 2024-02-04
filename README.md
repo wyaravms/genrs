@@ -15,9 +15,10 @@
 Important Note: This package is just an example that I used to study how
 to create a package and add some elements to the documentation.
 
-Functions that enable the generation of random samples from various
-distribution functions. The method used to generate these values was
-implemented using the Inverse Transform Sampling method.
+In this package, you will find functions that enable the generation of
+random samples from various distribution functions. The method used to
+generate these values was implemented using the Inverse Transform
+Sampling method.
 
 ## Installation
 
@@ -43,8 +44,8 @@ distribution with parameters shape1 and shape2.
 
 ``` r
 rburrxii(10, 2, 3)
-#>  [1] 1.0974049 0.5779157 0.8709173 0.8513088 0.9375570 0.3340798 0.4065357
-#>  [8] 0.7174570 0.5065897 2.2397891
+#>  [1] 0.2504770 0.8087669 0.5621138 0.4744511 0.9516204 0.5165640 0.2663089
+#>  [8] 0.3250835 0.9528229 0.6645953
 ```
 
 ``` r
@@ -58,8 +59,8 @@ distribution with parameters scale and shape.
 
 ``` r
 rparetoi(10, 3, 6)
-#>  [1] 3.331366 3.416477 4.395513 3.746907 3.246530 3.404517 3.311258 4.145592
-#>  [9] 3.134992 5.252068
+#>  [1] 3.711729 3.381806 3.575570 3.423183 3.200048 3.860860 3.946624 3.197435
+#>  [9] 3.388980 3.096117
 ```
 
 ``` r
@@ -73,8 +74,8 @@ distribution with parameters scale and shape.
 
 ``` r
 rloglogis(10, 3, 6)
-#>  [1] 4.258138 2.767869 3.293448 2.365414 2.611447 2.980018 3.353399 2.632729
-#>  [9] 2.479938 2.788551
+#>  [1] 3.415271 3.093266 3.264675 3.153163 2.514298 2.093277 3.344984 1.743827
+#>  [9] 2.735282 2.949746
 ```
 
 ``` r
